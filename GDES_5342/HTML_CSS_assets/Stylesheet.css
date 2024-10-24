@@ -1,0 +1,143 @@
+html{
+    background-color: #656565;
+    }
+div.container{
+    width:780px;
+    min-height: 500px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, Verdana, sans-serif;
+    background-color: white;
+    border: 1px solid black;
+}
+.container header{
+    min-height: 100px;
+}
+header .top{
+    text-align: right;
+    padding: 12px 10px 0 0;
+}
+header .top a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 3px;
+    padding: 5px;
+}
+.top span:after {
+    content: " |";
+}
+.container header > img {
+    display: block;
+}
+.nav a img {
+    vertical-align: middle;
+}
+.insides {
+    min-height: 525px;
+}
+.middle{
+    background-image: url('uofu_medallion_rt.gif');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+section.insides {
+    border-radius: 25px;
+    margin: 1rem 1rem 5.5rem 1rem;
+    padding: 1rem;
+    background-color:#d2d2bb;
+}
+.base .bottom a{
+    color: black;
+    text-transform: lowercase;
+    text-decoration: none;
+    padding: 3px;
+    font-size: 10px;
+}
+.bottom span:after {
+    content: " |";
+    font-size: 10px;
+}
+.nav span:last-of-type:after {
+    content: "";
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+div.middle section.insides aside.nav{
+    float: left;
+    width: 200px;
+    min-height: 525px;
+}
+aside.nav a{
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 5px 7px 10px;
+    font-size: 75%;
+    border-bottom: 1px solid teal;
+}
+aside.nav a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: teal;
+    border-radius: 5px;
+}
+
+aside.nav div.nav-img-links{
+    margin-top: 95%;
+
+}
+aside.nav div.nav-img-links a{
+    border-bottom: none;
+}
+aside.nav div.nav-img-links a:hover{
+    background-color: unset;
+    text-decoration: unset;
+}
+div.middle section.insides article.main{
+    float: right;
+    width: 450px;
+    min-height: 375px;
+    background-color: white;
+    padding: 1rem;
+}
+article.main img{
+    width: 100%;
+}
+article.main a{
+    display: block;
+    text-align: right;
+    margin: 0.5rem 0;
+    color: teal;
+    text-decoration: none;
+    font-size: 75%;
+}
+article.main h1{
+    color: teal;
+    border-bottom: 2px dashed teal;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+article.main div.content{
+    height:100px;
+    overflow: auto;
+}
+div.content p {
+    margin-top:0;
+    text-align: justify;
+}
+div.content span{
+    font-weight: bold;
+}
+.bottom {
+    text-align: right;
+}
+footer{
+    background-color: olive;
+    font-size: 10px;
+    text-align: center;
+    padding: 6px;
+    color: white;
+}

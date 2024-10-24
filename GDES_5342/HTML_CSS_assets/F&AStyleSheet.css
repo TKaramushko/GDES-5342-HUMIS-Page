@@ -1,0 +1,175 @@
+html{
+    background-color: #656565;
+}
+div.container{
+    width:780px;
+    min-height: 500px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, Verdana, sans-serif;
+    background-color: white;
+    border: 1px solid black;
+}
+.container header{
+    min-height: 100px;
+}
+.sub-head-img img{
+    width: 100%;
+    margin-top: -5px;
+}
+header .top {
+    text-align: right;
+}
+header .top a{
+    color: black;
+    font-size: 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 3px;
+    margin: 0 3px 0 0;
+    vertical-align: top;
+}
+.top span:after {
+    content: " |";
+    font-size: 8px;
+    vertical-align: top;
+
+}
+.container header > img {
+    display: block;
+}
+.top a img {
+    vertical-align:top;
+    height: 12px;
+}
+.insides {
+    min-height: 525px;
+}
+section.insides {
+    margin-top:-2.5rem;
+    margin-bottom: -2.25rem;
+    padding: 1rem;
+    background-color:white;
+    border: 1px solid black;
+}
+.base .bottom a{
+    color: black;
+    text-transform: lowercase;
+    text-decoration: none;
+    padding: 3px;
+    font-size: 10px;
+}
+.bottom span:after {
+    content: " |";
+    font-size: 10px;
+}
+.nav span:last-of-type:after {
+    content: "";
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+div.middle section.insides aside.nav{
+    float: left;
+    width: 225px;
+    min-height: 525px;
+    border-right: 1px solid teal;
+}
+aside.nav a{
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 0 7px 10px;
+    font-size: 75%;
+    border-bottom: 1px solid teal;
+    margin-right:20px;
+}
+aside.nav a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: teal;
+    border-radius: 5px;
+}
+
+aside.nav div.nav-img-links{
+    margin-top: 65%;
+
+}
+aside.nav div.nav-img-links a{
+    border-bottom: none;
+}
+aside.nav div.nav-img-links a:hover{
+    background-color: unset;
+    text-decoration: unset;
+}
+div.middle section.insides article.main {
+
+}
+
+article.main a{
+    display: flex;
+    flex-direction: column;
+    padding-left:0.25rem;
+    margin: 0.25rem 0;
+    color: teal;
+    text-decoration: none;
+    font-size: 62.5%;
+}
+article.main h1{
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 150%;
+}
+div.content p {
+    margin-top:0;
+    text-align: justify;
+}
+div.content span{
+    font-weight: bold;
+}
+div.title{
+    border-right: 2px dashed teal;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 2.5rem 0 1rem 0;
+    height: 450px;
+    max-width: 25%;
+    float:left;
+}
+div.info {
+    display:flex;
+    flex-direction: column;
+    font-size: 62.5%;
+    max-width: 35%;
+    float:right;
+    align-items: flex-start;
+    height: 450px;
+    margin: 2.5rem 0 1rem 0;
+}
+div.info p{
+    margin: 5px 0;
+}
+div.info a{
+    font-size: 12px;
+}
+div.info h2{
+    font-weight: bold;
+    color: red;
+    margin: 5px 0 -3px 0;
+}
+.bottom {
+    text-align: right;
+}
+footer {
+    background-color: olive;
+    font-size: 10px;
+    text-align: center;
+    padding: 6px;
+    color: white;
+}
+
